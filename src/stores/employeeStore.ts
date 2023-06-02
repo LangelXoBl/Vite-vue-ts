@@ -23,7 +23,6 @@ export const useEmployeeStore = defineStore('employee', () => {
   //actions
   async function fetchEmployees() {
     employeeList.value = await getListEmployees()
-    console.log("fetch employees")
   }
 
   async function fetchDetail() {
