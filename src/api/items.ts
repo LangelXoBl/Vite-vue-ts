@@ -1,4 +1,4 @@
-import type { IAsset } from '@/models/IAsset'
+import type { IAsset } from '../models/IAsset'
 import conection from './api'
 
 export const getListAssets = async (): Promise<IAsset[]> => {

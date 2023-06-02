@@ -1,6 +1,6 @@
-import type { IEmploye } from '@/models/IEmploye'
+import type { IEmploye } from '../models/IEmploye'
 import conection from './api'
-import type { IAsignation } from '@/models/IAsignation'
+import type { IAsignation } from '../models/IAsignation'
 
 export const getListEmployees = async (): Promise<IEmploye[]> => {
   try {
