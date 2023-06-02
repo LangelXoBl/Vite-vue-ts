@@ -1,4 +1,4 @@
-interface IAsset {
+export interface IAsset {
   id?: number
   nombreItem: string
   description?: string
@@ -9,5 +9,3 @@ export const baseAsset: IAsset = {
   nombreItem: '',
   status: true
 }
-
-export type { IAsset }
