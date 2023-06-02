@@ -1,7 +1,7 @@
 import type { IAsset } from './IAsset'
 import type { IEmploye } from './IEmploye'
 
-export interface IAsignation {
+interface IAsignation {
   id?: number
   id_persona: number
   id_item: number
@@ -11,3 +11,5 @@ export interface IAsignation {
   persona?: IEmploye
   items?: IAsset
 }
+
+export type { IAsignation }

@@ -1,4 +1,4 @@
-export interface IEmploye {
+interface IEmploye {
   id?: number
   name: string
   lastname: string
@@ -8,3 +8,5 @@ export interface IEmploye {
   numero_empleado?: number
   fechaNacimiento: Date
 }
+
+export type { IEmploye }
